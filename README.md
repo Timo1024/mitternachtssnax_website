@@ -1,2 +1,2 @@
-# mitternachtssnax_website
-Creating Website for Mitternachtssnax
+# Website for Mitternachtssnax
+Creating a Website for Mitternachtssnax
