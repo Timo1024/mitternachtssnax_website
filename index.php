@@ -137,7 +137,8 @@
                         <li class="nav-item"><a href="./faq.html" class="nav-link">FAQs</a></li>
                         <li class="nav-item"><a href="./about.html" class="nav-link">Kontakt</a></li>
 
-                        <li class="nav-item" id="mode_switch_li"><a href="#" class="nav-link" id="mode_switch">
+                        <li class="nav-item" id="mode_switch_li">
+                            <a href="#" class="nav-link" id="mode_switch">
                                 <svg class="bi" id="sun_icon" width="1em" height="1em">
                                     <use id="use_icon_change_color_mode" xlink:href="#sun" />
                                 </svg>
