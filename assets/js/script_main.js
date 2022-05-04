@@ -257,8 +257,3 @@ function switching() {
     }
     console.log("zu: " + localStorage.getItem("color_mode"));
 }
-
-// $(document).ready(function() {
-//   $('#body').show();
-//   $('#msg').hide();
-// });
