@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Webseite 1.0",
+        "content": "Die Webseite ist endlich fertig. Also zumindest soweit fertig, dass man sie sich anschauen kann und nicht direkt einen Augenkrampf bekommt. Apropos Augenkrampf - der dark Mode kommt noch...",
+        "link": "disabled",
+        "date": "19.12."
+    },
+    {
+        "title": "FAQ's",
+        "content": "Die FAQ-Seite ist endlich fertig. Falls ihr weitere FAQ's beantwortet haben wollt, könnt ihr das gerne unter \"About\" angeben",
+        "link": "./faq.html",
+        "date": "15.12."
+    },
+    {
+        "title": "neue Commands",
+        "content": "es gibt viele neue Commands für den Discord Bot. Zum Beispiel: .miesmuschel. Ihr könnt alle Commands auf der Main Page sehen",
+        "link": "./index.php",
+        "date": "25.11."
+    },
+    {
+        "title": "Discord Bot",
+        "content": "Wir haben endlich einen eigenen Discord Bot auf unserem Community Server. Die Commands dafür seht ihr auf der Main Page",
+        "link": "./index.php",
+        "date": "21.11."
+    }
+]
