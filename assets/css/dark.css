@@ -1,0 +1,121 @@
+/* variables */
+:root{
+    /* --dark_mode_bg_color: #1d2025; */
+    --dark_mode_bg_color: #131a1f;
+}
+
+body {
+    background-color: var(--dark_mode_bg_color, black);
+    color: white;
+}
+
+.fs-4 {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link.active {
+    color: #fff;
+    background-color: #25333b !important;
+}
+
+.bg-light {
+    background-color: #25333b !important;
+}
+
+.card {
+    background-color: var(--dark_mode_bg_color, black);
+}
+
+.btn-close:hover, .btn-close:active {
+    color: #ffffff;
+    border-color: #80f5d2;
+}
+
+.btn-close:focus, .btn-close:active:focus {
+    box-shadow:0 0 0 .25rem rgba(128,245,210,.5);
+    color: #ffffff;
+    border: none;
+    border-color: #80f5d2;
+}
+
+/* die Button Groups bei den News */
+.btn-sm {
+    border-color: #979797;
+    color: #ffffff;
+}
+
+.btn-sm:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #80f5d2;
+    border-color: #80f5d2;
+}
+
+.btn-outline-secondary:hover, .btn-outline-secondary:active {
+    color: #ffffff;
+    border-color: #80f5d2;
+}
+
+.btn-outline-secondary:active:focus {
+    box-shadow:0 0 0 .25rem rgba(128,245,210,.5);
+    color: #ffffff;
+    border: none;
+    border-color: #80f5d2;
+}
+
+.btn-outline-secondary:focus {
+    /* box-shadow:0 0 0 .25rem rgba(128,245,210,.5);
+    background-color: #80f5d2;
+    color: #25333b;
+    border: none;
+    border-color: #80f5d2; */
+    box-shadow:none;
+    /* background-color: #25333b; */
+    /* color: #25333b; */
+    /* border: none; */
+    border-color: #ffffff;
+}
+
+.btn-outline-secondary:focus:hover {
+    color: #ffffff;
+    border-color: #80f5d2;
+}
+
+.icon-square.text-dark {
+    color: #80f5d2 !important;
+    background-color: #25333b !important;
+}
+
+.text-muted {
+    color: #aaa !important;
+}
+
+.accordion, .container-sm, .bd-example, .accordion-item, .accordion-button{
+    background-color: var(--dark_mode_bg_color, black);
+    color: #fff;
+    border-color: #25333b;
+}
+
+.form-control {
+    background-color: #25333b;
+    color: #fff;
+}
+
+.form-control:focus{
+    color:#fff;
+    background-color:#25333b;
+    border-color:#bbbbbb50;
+    outline:0;
+    box-shadow:0 0 0 .25rem #ffffff80;
+}
+
+.modal-body {
+    background-color: var(--dark_mode_bg_color);
+}
+
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%)
+}
