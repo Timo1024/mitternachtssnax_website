@@ -346,3 +346,7 @@ body.dark {
 .fs-4.dark {
     color: #fff;
 }
+
+.nav-link.dark {
+    color: #fff;
+}

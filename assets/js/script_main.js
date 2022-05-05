@@ -30,6 +30,9 @@ function switching() {
     let switch_mode_new = document.querySelector('#mode_switch');
     let doc_body = document.querySelector('body');
     let text_in_header = document.querySelector('.fs-4');
+    let menu_top = document.querySelectorAll('.nav-item');
+
+    console.log(menu_top)
 
     switch (localStorage.getItem("color_mode")) {
         case "0":
@@ -38,6 +41,7 @@ function switching() {
             switch_mode_new.innerHTML = "<svg class=\"bi\" id=\"sun_icon\" width=\"1em\" height=\"1em\"><use xlink:href=\"#sun\"/></svg>";
             doc_body.classList.add("dark");
             text_in_header.classList.add("dark");
+            for (var i in menu_top){i.classList.add("dark")};
 
             break;
         default:
@@ -46,7 +50,8 @@ function switching() {
             switch_mode_new.innerHTML = "<svg class=\"bi\" id=\"moon_icon\" width=\"1em\" height=\"1em\"><use xlink:href=\"#moon\"/></svg>";
             doc_body.classList.remove("dark");
             text_in_header.classList.remove("dark");
-            
+            menu_top.classList.remove("dark");
+
             break;
     }
     console.log("zu: " + localStorage.getItem("color_mode"));
