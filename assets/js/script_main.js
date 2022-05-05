@@ -41,7 +41,7 @@ function switching() {
             switch_mode_new.innerHTML = "<svg class=\"bi\" id=\"sun_icon\" width=\"1em\" height=\"1em\"><use xlink:href=\"#sun\"/></svg>";
             doc_body.classList.add("dark");
             text_in_header.classList.add("dark");
-            for (var i in menu_top){i.classList.add("dark")};
+            for (var i; i<menu_top.length; i++){menu_top[i].classList.add("dark")};
 
             break;
         default:
@@ -50,7 +50,7 @@ function switching() {
             switch_mode_new.innerHTML = "<svg class=\"bi\" id=\"moon_icon\" width=\"1em\" height=\"1em\"><use xlink:href=\"#moon\"/></svg>";
             doc_body.classList.remove("dark");
             text_in_header.classList.remove("dark");
-            menu_top.classList.remove("dark");
+            for (var i; i<menu_top.length; i++){menu_top[i].classList.remove("dark")};
 
             break;
     }
